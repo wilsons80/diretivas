@@ -1,0 +1,20 @@
+<p>
+  Tarefa: {{tareafa.desc}}
+</p>
+
+<!--
+<p>
+  Responsavel: {{tareafa.responsavel.nome}}
+</p>
+-->
+
+
+<p>
+  Responsavel: {{tareafa.responsavel != null ? tareafa.responsavel.nome : ''}}
+</p>
+<p>
+  Responsavel: {{tareafa.responsavel?.nome}}
+</p>
+<p>
+  Responsavel: {{tareafa.responsavel?.usuario?.nome}}
+</p>
